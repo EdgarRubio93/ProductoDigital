@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link rel="stylesheet" href="css/pago.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+    <link rel="stylesheet" href="css/animation.css" />
+    <title>Brand</title>
+  </head>
+  <body>
+    <nav class="fadeInDowm">
+      <div class="brandImage">
+        <img src="images/logo.png" alt="logo" />
+      </div>
+      <div class="navOptions">
+        <a class="linkOptions" href="index.html">Home</a>
+        <a class="linkOptions" href="producto.html">FAQs</a>
+        <a class="linkOptions" href="producto.html">Productos</a>
+      </div>
+    </nav>
+    <section class="paymentArea">
+      <div class="productsContainer">
+        <div class="content">
+          <img class="boxImage" src="images/box1.png" alt="caja" />
+          <h1>Producto 1</h1>
+          <p>
+            Miles de productos hay en el mercado pero nada como una caja con
+            gatitos.
+          </p>
+        </div>
+      </div>
+      <form class="payBox" action="https://www.paypal.com/us/home">
+        <label for="name">Nombre</label>
+        <input type="text" name="name" />
+        <label for="mail">Mail</label>
+        <input type="text" name="mail" />
+        <label for="phone">Phone</label>
+        <input type="text" name="phone" />
+        <input
+          class="payButton"
+          type="submit"
+          name="submit"
+          value="Confirmar Pago"
+        />
+      </form>
+    </section>
+    <footer>
+      <h5>Terminos y condiciones</h5>
+      <h5>contacto@paginafake.com</h5>
+    </footer>
+    <script src="scripts/scripts.js"></script>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+.paymentArea {
+  display: flex;
+  padding: 10%;
+}
+
+.payBox {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  box-shadow: 0 0 3px 2px #c1bcbc;
+  padding: 10px;
+}
+
+.payButton {
+  height: 50px;
+  margin-top: 10px;
+  background-color: #5e9222;
+  color: white;
+  border: unset;
+}
+
+.payButton:hover {
+  background-color: yellowgreen;
+}

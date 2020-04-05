@@ -1,0 +1,31 @@
+@media (max-width: 800px) {
+  .mentionArea,
+  .mentionSection {
+    display: inherit;
+  }
+}
+
+@media (max-width: 600px) {
+  .productsSection,
+  .subProductsSection {
+    display: inherit;
+  }
+
+  .navOptions {
+    justify-content: space-around;
+  }
+
+  .linkOptions {
+    padding: 0;
+  }
+
+  .row,
+  .rowReverse,
+  .paymentArea {
+    display: contents;
+  }
+
+  .payBox {
+    width: unset;
+  }
+}

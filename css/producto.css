@@ -1,0 +1,32 @@
+p {
+  text-align: justify;
+}
+
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  align-items: center;
+}
+
+.rowReverse {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  width: 60%;
+  align-items: center;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}

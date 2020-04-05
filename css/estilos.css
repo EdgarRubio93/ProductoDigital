@@ -1,0 +1,146 @@
+:root {
+  --green-color: #7acc2d;
+}
+
+html,
+body {
+  /* padding: 0;
+  margin: 0; */
+  font-size: 12px;
+  font-family: Helvetica;
+}
+
+/* nav section */
+
+nav {
+  display: flex;
+  background-color: var(--green-color);
+  padding: 10px;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brandImage {
+  width: 150px;
+  height: 80px;
+}
+
+nav div img {
+  height: inherit;
+  width: inherit;
+}
+
+.navOptions {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+.linkOptions {
+  padding: 2%;
+  width: fit-content;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+a:hover {
+  color: lightgray;
+}
+
+/* main section */
+
+.mainSection {
+  padding: 5%;
+  text-align: center;
+}
+
+.productsSection {
+  background-color: rgba(211, 211, 211, 0.459);
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.productsContainer {
+  padding: 10px;
+}
+
+.content {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 1px #c1bcbc;
+}
+
+p {
+  text-align: center;
+}
+
+.boxImage {
+  height: 80px;
+  width: 100px;
+}
+
+.productButton {
+  background-color: var(--green-color);
+  width: 100%;
+  padding: 10px;
+  font-size: 12px;
+  color: white;
+  border: unset;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.productButton:hover {
+  background-color: #5e9222;
+}
+
+.subProductsSection {
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+}
+
+.mentionArea {
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mentionSection {
+  display: flex;
+  justify-content: center;
+}
+
+.mentionContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 7px 2px #c1bcbc;
+}
+
+.mentionImage {
+  height: 100px;
+  width: 100%;
+}
+
+.mentionDescription {
+  padding: 1%;
+}
+
+footer {
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #7acc2d;
+  color: white;
+}
